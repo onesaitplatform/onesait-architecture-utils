@@ -28,7 +28,7 @@ Spring-boot: Para la implementación del módulo de aplicación.
 
 ## Instrucciones de uso generales de la librería
 
-Este proyecto tiene una versión utilizable subida al nexus de Arquitectura. Para tener acceso al nexus de arquitectura deberemos configurar maven para que tenga acceso al repositorio mediante el uso de unos credenciales. En el apartado avisos de uso se darán más detalles al respecto.Para utilizar la funcionalidad que el servicio de la aplicación proporciona, deberemos seguir los siguientes pasos:
+Este proyecto tiene una versión utilizable subida al nexus de Arquitectura. Para tener acceso al nexus de arquitectura deberemos configurar maven. Para utilizar la funcionalidad que el servicio de la aplicación proporciona, deberemos seguir los siguientes pasos:
 
 Añadir repositorios al pom.xml:
 
@@ -47,8 +47,6 @@ Añadir a nuestro pom.xml la dependencia de la libreria del nexus:
 <dependency>
   <groupId>com.minsait.architecture</groupId>
   <artifactId>architecture-utils</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.1.0</version>
 </dependency>
 ```
-
-
