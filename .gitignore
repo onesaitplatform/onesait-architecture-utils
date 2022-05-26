@@ -1,0 +1,11 @@
+.project
+.classpath
+.settings
+
+*.factorypath
+
+JenkinsFile
+podTemplate.yaml
+settings.xml
+docker/
+Dockerfile
